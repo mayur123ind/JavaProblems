@@ -1,6 +1,6 @@
 /*
 Author : Mayur Ind.
-Problem Name : Write a program to Swap two numbers without using 3rd variable
+Problem Name : Write a program to Swap two numbers with using 3rd variable
 Purpose : Educational
 */
 

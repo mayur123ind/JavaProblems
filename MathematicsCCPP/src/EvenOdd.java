@@ -5,7 +5,7 @@ Purpose : Educational
 */
 import java.util.Scanner;
 public class EvenOdd {
-
+	//mad
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Enter the number");

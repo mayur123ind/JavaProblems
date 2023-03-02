@@ -1,0 +1,32 @@
+/*
+Author : Mayur Ind.
+Problem Name : Write a Program to check the given number is ARMSTRONG or not 
+Purpose : Educational
+*/
+
+import java.util.*;
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+
+		 	Scanner sc = new Scanner(System.in);
+		 	System.out.println("Enter the Number :");
+		 	int n =sc.nextInt();
+		 	
+		 	int temp = n;
+		 	int sum=0;
+		 	
+		 	while(n>0)
+		 	{
+		 		int r=n%10;
+		 		sum=sum+r*r*r;
+		 		n=n/10;
+		 	}
+		 	System.out.println("sum is = "+sum);
+		 	if(temp==sum)
+		 		System.out.println("Number is armstrong");
+		 	else
+		 		System.out.println("Number is not armstrong");
+	}
+
+}
